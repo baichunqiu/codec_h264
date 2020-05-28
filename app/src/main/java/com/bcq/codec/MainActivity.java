@@ -1,7 +1,9 @@
-package com.example.apadmin.cameraphoto;
+package com.bcq.codec;
 
+import android.media.MediaCodec;
 import android.os.Environment;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -18,6 +20,11 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.widget.Toast;
+
+import com.bcq.codec.hdcodec.AbsCodec;
+import com.bcq.codec.hdcodec.AudioCodec;
+import com.bcq.codec.hdcodec.Icodec;
+import com.example.apadmin.cameraphoto.YuvEngineWrap;
 
 import java.io.File;
 
@@ -94,6 +101,30 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         }
         YuvEngineWrap.newInstance().startYuvEngine();
+//        final Icodec audio = new AudioCodec(48000,2,16, Icodec.MIME_TYPE_AAC);
+//        audio.init();
+//        audio.putData(null);
+//        audio.setOnCodecListeren(new Icodec.OnCodecListeren() {
+//            @Override
+//            public void onData(byte[] data, MediaCodec.BufferInfo bufferInfo) {
+//
+//            }
+//
+//            @Override
+//            public void onComplete() {
+//                audio.stopEncode();
+//            }
+//        });
+        final Icodec audio = new AudioCodec(48000,2,16, Icodec.MIME_TYPE_AAC);
+        audio.init();
+        audio.putData(null);
+        audio.stopEncode();
+        audio.setOnCodecListeren(new Icodec.OnCodecListeren() {
+            @Override
+            public void onData(byte[] data, MediaCodec.BufferInfo bufferInfo) {
+
+            }
+        });
     }
 
     private void codecToggle() {

@@ -1,4 +1,4 @@
-package com.example.apadmin.cameraphoto;
+package com.bcq.codec;
 
 import android.media.AudioFormat;
 import android.media.MediaCodec;
@@ -7,10 +7,11 @@ import android.media.MediaCodecList;
 import android.media.MediaFormat;
 import android.util.Log;
 
+import com.example.apadmin.cameraphoto.YuvEngineWrap;
+
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.concurrent.LinkedBlockingQueue;
 
 /**

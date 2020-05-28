@@ -5,7 +5,7 @@ android {
     defaultConfig {
         def date = new Date()
         def formattedDate = date.format('yyMMddHHmm')
-        applicationId "com.example.apadmin.cameraphoto"
+        applicationId "com.bcq.codec"
         versionCode 100
         setProperty("archivesBaseName", "v2.3.$versionCode.$formattedDate")
         minSdkVersion 21

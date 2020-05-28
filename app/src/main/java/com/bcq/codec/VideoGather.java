@@ -1,4 +1,4 @@
-package com.example.apadmin.cameraphoto;
+package com.bcq.codec;
 
 /**
  * Created by zhongjihao on 18-2-7.
@@ -20,7 +20,6 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import static android.hardware.Camera.Parameters.FOCUS_MODE_AUTO;
 import static android.hardware.Camera.Parameters.PREVIEW_FPS_MAX_INDEX;
 import static android.hardware.Camera.Parameters.PREVIEW_FPS_MIN_INDEX;
 

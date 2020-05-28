@@ -1,4 +1,4 @@
-package com.example.apadmin.cameraphoto;
+package com.bcq.codec;
 
 import android.app.Application;
 

@@ -1,4 +1,4 @@
-package com.example.apadmin.cameraphoto;
+package com.bcq.codec;
 
 /**
  * Created by zhongjihao on 23/02/18.
