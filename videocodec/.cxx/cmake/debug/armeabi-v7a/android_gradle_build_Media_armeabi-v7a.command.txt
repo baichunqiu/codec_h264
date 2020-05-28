@@ -1,0 +1,7 @@
+Executable : /Users/hakushunshuu/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Users/hakushunshuu/ql_demo/media/H264/libmedia/.cxx/cmake/debug/armeabi-v7a
+Media
+jvmArgs : 
+

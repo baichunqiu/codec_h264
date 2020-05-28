@@ -1,0 +1,18 @@
+{
+  "buildFiles": [
+    "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/yuvlibs/../../../../Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/yuvlibs/../../../../Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake",
+    "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/yuvlibs/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/hakushunshuu/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/hakushunshuu/ql_demo/git_libs/codec_h264/yuvlibs/.externalNativeBuild/cmake/ANDROID_MEDIACODEC_MP4Release/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "yuvengine-Release-armeabi-v7a": {
+      "artifactName": "yuvengine",
+      "buildCommand": "/Users/hakushunshuu/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/hakushunshuu/ql_demo/git_libs/codec_h264/yuvlibs/.externalNativeBuild/cmake/ANDROID_MEDIACODEC_MP4Release/armeabi-v7a --target yuvengine",
+      "abi": "armeabi-v7a",
+      "output": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/yuvlibs/build/intermediates/cmake/ANDROID_MEDIACODEC_MP4/release/obj/armeabi-v7a/libyuvengine.so"
+    }
+  }
+}

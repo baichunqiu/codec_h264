@@ -1,0 +1,135 @@
+{
+  "stringTable": {
+    "0": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/.externalNativeBuild/cmake/release/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DMedia_EXPORTS -I../../../../src/main/cpp/opencv -I../../../../src/main/cpp/yuv -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/sdl2/ffmpeg/sdl2 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -std=c++11 -frtti -fno-exceptions -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/../../../../Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/../../../../Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake",
+    "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/hakushunshuu/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "Media-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/hakushunshuu/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/.externalNativeBuild/cmake/release/armeabi-v7a --target Media",
+      "buildType": "debug",
+      "toolchain": "3870637995",
+      "abi": "armeabi-v7a",
+      "artifactName": "Media",
+      "files": [
+        {
+          "src": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/jni/Jni_Live_Manage.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/jni/jni_Video_Process.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/AudioCapture.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/AudioEncoder.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/CombineVideoHelper.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/DrawTextFilter.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/FilterFactory.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/MediaCapture.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/MediaEncoder.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/MediaFilter.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/MediaStreamer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/NativeCrashHandler.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/OriginData.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/RtmpStreamer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/VideoCapture.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/VideoEncoder.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/VideoProcess.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/debug.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/threadsafe_queue.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/event/EventBus.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/build/intermediates/cmake/release/obj/armeabi-v7a/libMedia.so"
+    }
+  },
+  "toolchains": {
+    "3870637995": {
+      "cppCompilerExecutable": "/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

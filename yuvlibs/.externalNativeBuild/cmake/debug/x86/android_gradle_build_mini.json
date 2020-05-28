@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/home/apadmin/Workspace/Project/AVMediaCodecMP4/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/apadmin/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/apadmin/Workspace/Project/AVMediaCodecMP4/app/.externalNativeBuild/cmake/debug/x86 --target clean"
+  ],
+  "libraries": {
+    "yuv420pUtil-Debug-x86": {
+      "artifactName": "yuv420pUtil",
+      "buildCommand": "/home/apadmin/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/apadmin/Workspace/Project/AVMediaCodecMP4/app/.externalNativeBuild/cmake/debug/x86 --target yuv420pUtil",
+      "abi": "x86",
+      "output": "/home/apadmin/Workspace/Project/AVMediaCodecMP4/app/build/intermediates/cmake/debug/obj/x86/libyuv420pUtil.so"
+    }
+  }
+}

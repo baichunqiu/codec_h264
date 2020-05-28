@@ -1,0 +1,121 @@
+[
+{
+  "directory": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/.externalNativeBuild/cmake/release/armeabi-v7a",
+  "command": "/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DMedia_EXPORTS -I../../../../src/main/cpp/opencv -I../../../../src/main/cpp/yuv -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/sdl2/ffmpeg/sdl2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fno-exceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/Media.dir/src/main/cpp/jni/Jni_Live_Manage.cpp.o -c /Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/jni/Jni_Live_Manage.cpp",
+  "file": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/jni/Jni_Live_Manage.cpp"
+},
+
+{
+  "directory": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/.externalNativeBuild/cmake/release/armeabi-v7a",
+  "command": "/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DMedia_EXPORTS -I../../../../src/main/cpp/opencv -I../../../../src/main/cpp/yuv -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/sdl2/ffmpeg/sdl2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fno-exceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/Media.dir/src/main/cpp/jni/jni_Video_Process.cpp.o -c /Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/jni/jni_Video_Process.cpp",
+  "file": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/jni/jni_Video_Process.cpp"
+},
+
+{
+  "directory": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/.externalNativeBuild/cmake/release/armeabi-v7a",
+  "command": "/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DMedia_EXPORTS -I../../../../src/main/cpp/opencv -I../../../../src/main/cpp/yuv -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/sdl2/ffmpeg/sdl2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fno-exceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/Media.dir/src/main/cpp/core/AudioCapture.cpp.o -c /Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/AudioCapture.cpp",
+  "file": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/AudioCapture.cpp"
+},
+
+{
+  "directory": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/.externalNativeBuild/cmake/release/armeabi-v7a",
+  "command": "/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DMedia_EXPORTS -I../../../../src/main/cpp/opencv -I../../../../src/main/cpp/yuv -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/sdl2/ffmpeg/sdl2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fno-exceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/Media.dir/src/main/cpp/core/AudioEncoder.cpp.o -c /Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/AudioEncoder.cpp",
+  "file": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/AudioEncoder.cpp"
+},
+
+{
+  "directory": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/.externalNativeBuild/cmake/release/armeabi-v7a",
+  "command": "/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DMedia_EXPORTS -I../../../../src/main/cpp/opencv -I../../../../src/main/cpp/yuv -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/sdl2/ffmpeg/sdl2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fno-exceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/Media.dir/src/main/cpp/core/CombineVideoHelper.cpp.o -c /Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/CombineVideoHelper.cpp",
+  "file": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/CombineVideoHelper.cpp"
+},
+
+{
+  "directory": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/.externalNativeBuild/cmake/release/armeabi-v7a",
+  "command": "/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DMedia_EXPORTS -I../../../../src/main/cpp/opencv -I../../../../src/main/cpp/yuv -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/sdl2/ffmpeg/sdl2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fno-exceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/Media.dir/src/main/cpp/core/DrawTextFilter.cpp.o -c /Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/DrawTextFilter.cpp",
+  "file": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/DrawTextFilter.cpp"
+},
+
+{
+  "directory": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/.externalNativeBuild/cmake/release/armeabi-v7a",
+  "command": "/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DMedia_EXPORTS -I../../../../src/main/cpp/opencv -I../../../../src/main/cpp/yuv -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/sdl2/ffmpeg/sdl2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fno-exceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/Media.dir/src/main/cpp/core/FilterFactory.cpp.o -c /Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/FilterFactory.cpp",
+  "file": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/FilterFactory.cpp"
+},
+
+{
+  "directory": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/.externalNativeBuild/cmake/release/armeabi-v7a",
+  "command": "/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DMedia_EXPORTS -I../../../../src/main/cpp/opencv -I../../../../src/main/cpp/yuv -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/sdl2/ffmpeg/sdl2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fno-exceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/Media.dir/src/main/cpp/core/MediaCapture.cpp.o -c /Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/MediaCapture.cpp",
+  "file": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/MediaCapture.cpp"
+},
+
+{
+  "directory": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/.externalNativeBuild/cmake/release/armeabi-v7a",
+  "command": "/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DMedia_EXPORTS -I../../../../src/main/cpp/opencv -I../../../../src/main/cpp/yuv -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/sdl2/ffmpeg/sdl2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fno-exceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/Media.dir/src/main/cpp/core/MediaEncoder.cpp.o -c /Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/MediaEncoder.cpp",
+  "file": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/MediaEncoder.cpp"
+},
+
+{
+  "directory": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/.externalNativeBuild/cmake/release/armeabi-v7a",
+  "command": "/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DMedia_EXPORTS -I../../../../src/main/cpp/opencv -I../../../../src/main/cpp/yuv -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/sdl2/ffmpeg/sdl2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fno-exceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/Media.dir/src/main/cpp/core/MediaFilter.cpp.o -c /Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/MediaFilter.cpp",
+  "file": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/MediaFilter.cpp"
+},
+
+{
+  "directory": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/.externalNativeBuild/cmake/release/armeabi-v7a",
+  "command": "/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DMedia_EXPORTS -I../../../../src/main/cpp/opencv -I../../../../src/main/cpp/yuv -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/sdl2/ffmpeg/sdl2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fno-exceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/Media.dir/src/main/cpp/core/MediaStreamer.cpp.o -c /Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/MediaStreamer.cpp",
+  "file": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/MediaStreamer.cpp"
+},
+
+{
+  "directory": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/.externalNativeBuild/cmake/release/armeabi-v7a",
+  "command": "/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DMedia_EXPORTS -I../../../../src/main/cpp/opencv -I../../../../src/main/cpp/yuv -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/sdl2/ffmpeg/sdl2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fno-exceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/Media.dir/src/main/cpp/core/NativeCrashHandler.cpp.o -c /Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/NativeCrashHandler.cpp",
+  "file": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/NativeCrashHandler.cpp"
+},
+
+{
+  "directory": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/.externalNativeBuild/cmake/release/armeabi-v7a",
+  "command": "/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DMedia_EXPORTS -I../../../../src/main/cpp/opencv -I../../../../src/main/cpp/yuv -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/sdl2/ffmpeg/sdl2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fno-exceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/Media.dir/src/main/cpp/core/OriginData.cpp.o -c /Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/OriginData.cpp",
+  "file": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/OriginData.cpp"
+},
+
+{
+  "directory": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/.externalNativeBuild/cmake/release/armeabi-v7a",
+  "command": "/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DMedia_EXPORTS -I../../../../src/main/cpp/opencv -I../../../../src/main/cpp/yuv -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/sdl2/ffmpeg/sdl2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fno-exceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/Media.dir/src/main/cpp/core/RtmpStreamer.cpp.o -c /Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/RtmpStreamer.cpp",
+  "file": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/RtmpStreamer.cpp"
+},
+
+{
+  "directory": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/.externalNativeBuild/cmake/release/armeabi-v7a",
+  "command": "/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DMedia_EXPORTS -I../../../../src/main/cpp/opencv -I../../../../src/main/cpp/yuv -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/sdl2/ffmpeg/sdl2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fno-exceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/Media.dir/src/main/cpp/core/VideoCapture.cpp.o -c /Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/VideoCapture.cpp",
+  "file": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/VideoCapture.cpp"
+},
+
+{
+  "directory": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/.externalNativeBuild/cmake/release/armeabi-v7a",
+  "command": "/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DMedia_EXPORTS -I../../../../src/main/cpp/opencv -I../../../../src/main/cpp/yuv -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/sdl2/ffmpeg/sdl2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fno-exceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/Media.dir/src/main/cpp/core/VideoEncoder.cpp.o -c /Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/VideoEncoder.cpp",
+  "file": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/VideoEncoder.cpp"
+},
+
+{
+  "directory": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/.externalNativeBuild/cmake/release/armeabi-v7a",
+  "command": "/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DMedia_EXPORTS -I../../../../src/main/cpp/opencv -I../../../../src/main/cpp/yuv -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/sdl2/ffmpeg/sdl2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fno-exceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/Media.dir/src/main/cpp/core/VideoProcess.cpp.o -c /Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/VideoProcess.cpp",
+  "file": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/VideoProcess.cpp"
+},
+
+{
+  "directory": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/.externalNativeBuild/cmake/release/armeabi-v7a",
+  "command": "/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DMedia_EXPORTS -I../../../../src/main/cpp/opencv -I../../../../src/main/cpp/yuv -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/sdl2/ffmpeg/sdl2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fno-exceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/Media.dir/src/main/cpp/core/debug.cpp.o -c /Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/debug.cpp",
+  "file": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/debug.cpp"
+},
+
+{
+  "directory": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/.externalNativeBuild/cmake/release/armeabi-v7a",
+  "command": "/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DMedia_EXPORTS -I../../../../src/main/cpp/opencv -I../../../../src/main/cpp/yuv -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/sdl2/ffmpeg/sdl2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fno-exceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/Media.dir/src/main/cpp/core/threadsafe_queue.cpp.o -c /Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/threadsafe_queue.cpp",
+  "file": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/core/threadsafe_queue.cpp"
+},
+
+{
+  "directory": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/.externalNativeBuild/cmake/release/armeabi-v7a",
+  "command": "/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DMedia_EXPORTS -I../../../../src/main/cpp/opencv -I../../../../src/main/cpp/yuv -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/sdl2/ffmpeg/sdl2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -frtti -fno-exceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/Media.dir/src/main/cpp/event/EventBus.cpp.o -c /Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/event/EventBus.cpp",
+  "file": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/src/main/cpp/event/EventBus.cpp"
+}
+]

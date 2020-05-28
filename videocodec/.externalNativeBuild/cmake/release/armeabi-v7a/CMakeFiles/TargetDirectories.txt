@@ -1,0 +1,3 @@
+/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/hakushunshuu/ql_demo/git_libs/codec_h264/videocodec/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/Media.dir

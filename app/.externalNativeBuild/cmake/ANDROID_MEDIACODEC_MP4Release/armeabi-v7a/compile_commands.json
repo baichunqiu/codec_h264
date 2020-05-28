@@ -1,0 +1,13 @@
+[
+{
+  "directory": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/app/.externalNativeBuild/cmake/ANDROID_MEDIACODEC_MP4Release/armeabi-v7a",
+  "command": "/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuvengine_EXPORTS -I../../../../src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -Oz -DNDEBUG  -fPIC   -o CMakeFiles/yuvengine.dir/src/main/jni/com_example_apadmin_cameraphoto_YuvOperateJni.cpp.o -c /Users/hakushunshuu/ql_demo/git_libs/codec_h264/app/src/main/jni/com_example_apadmin_cameraphoto_YuvOperateJni.cpp",
+  "file": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/app/src/main/jni/com_example_apadmin_cameraphoto_YuvOperateJni.cpp"
+},
+
+{
+  "directory": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/app/.externalNativeBuild/cmake/ANDROID_MEDIACODEC_MP4Release/armeabi-v7a",
+  "command": "/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hakushunshuu/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuvengine_EXPORTS -I../../../../src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -Oz -DNDEBUG  -fPIC   -o CMakeFiles/yuvengine.dir/src/main/jni/yuvengine/yuvengine.cpp.o -c /Users/hakushunshuu/ql_demo/git_libs/codec_h264/app/src/main/jni/yuvengine/yuvengine.cpp",
+  "file": "/Users/hakushunshuu/ql_demo/git_libs/codec_h264/app/src/main/jni/yuvengine/yuvengine.cpp"
+}
+]
