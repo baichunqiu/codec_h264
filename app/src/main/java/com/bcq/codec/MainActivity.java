@@ -24,6 +24,7 @@ import android.widget.Toast;
 import com.bcq.codec.hdcodec.AbsCodec;
 import com.bcq.codec.hdcodec.AudioCodec;
 import com.bcq.codec.hdcodec.Icodec;
+import com.bcq.codec.hdcodec.MediaCodecHelper;
 import com.example.apadmin.cameraphoto.YuvEngineWrap;
 
 import java.io.File;
@@ -104,27 +105,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //        final Icodec audio = new AudioCodec(48000,2,16, Icodec.MIME_TYPE_AAC);
 //        audio.init();
 //        audio.putData(null);
+//        audio.stopEncode();
 //        audio.setOnCodecListeren(new Icodec.OnCodecListeren() {
 //            @Override
 //            public void onData(byte[] data, MediaCodec.BufferInfo bufferInfo) {
 //
 //            }
-//
-//            @Override
-//            public void onComplete() {
-//                audio.stopEncode();
-//            }
 //        });
-        final Icodec audio = new AudioCodec(48000,2,16, Icodec.MIME_TYPE_AAC);
-        audio.init();
-        audio.putData(null);
-        audio.stopEncode();
-        audio.setOnCodecListeren(new Icodec.OnCodecListeren() {
-            @Override
-            public void onData(byte[] data, MediaCodec.BufferInfo bufferInfo) {
-
-            }
-        });
+        MediaCodecHelper.getAllSuportCodec();
     }
 
     private void codecToggle() {

@@ -50,7 +50,6 @@ public class AudioGather {
             for (int sampleRate : sampleRates) {
                 // stereo 立体声,mono单声道
                 int channelConfig = AudioFormat.CHANNEL_CONFIGURATION_STEREO;
-
                 final int min_buffer_size = 2 * AudioRecord.getMinBufferSize(sampleRate, channelConfig, AudioFormat.ENCODING_PCM_16BIT);
                 audioRecord = new AudioRecord(MediaRecorder.AudioSource.MIC, sampleRate, channelConfig, AudioFormat.ENCODING_PCM_16BIT, min_buffer_size);
                 if (audioRecord.getState() != AudioRecord.STATE_INITIALIZED) {

@@ -26,6 +26,7 @@ public class AVEncoder {
     //////////////////VIDEO////////////////////////////
     // parameters for the encoder
     private static final String VIDEO_MIME_TYPE = "video/avc"; // H.264 Advanced Video
+    private static final String VIDEO_CODEC_NAME = "OMX.google.h264.encoder"; // H.264 Advanced Video
     // I-frames
     private static final int IFRAME_INTERVAL = 5; // 10 between
     //预览格式转换后的数据
@@ -223,6 +224,8 @@ public class AVEncoder {
 
     private MediaCodecInfo selectCodec(String mimeType) {
         int numCodecs = MediaCodecList.getCodecCount();
+        MediaCodecInfo first = null;
+        MediaCodecInfo second = null;
         for (int i = 0; i < numCodecs; i++) {
             MediaCodecInfo codecInfo = MediaCodecList.getCodecInfoAt(i);
             if (!codecInfo.isEncoder()) {
@@ -231,11 +234,16 @@ public class AVEncoder {
             String[] types = codecInfo.getSupportedTypes();
             for (int j = 0; j < types.length; j++) {
                 if (types[j].equalsIgnoreCase(mimeType)) {
-                    return codecInfo;
+                    if (codecInfo.getName().equalsIgnoreCase(VIDEO_CODEC_NAME)) {
+                        first = codecInfo;
+                    } else {
+                        second = codecInfo;
+                    }
+                    break;
                 }
             }
         }
-        return null;
+        return null != first ? first : second;
     }
 
     /**

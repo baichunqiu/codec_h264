@@ -58,6 +58,7 @@ public class MediaCodecHelper {
 
     /**
      * 获取主流格式的colorFormat
+     *
      * @param codecInfo
      * @param mimeType
      * @param recognizeColFormats 识别colorFormat的范围
@@ -128,13 +129,20 @@ public class MediaCodecHelper {
      *
      * @return
      */
-    private List<MediaCodecInfo> getAllSuportCodec() {
+    public static List<MediaCodecInfo> getAllSuportCodec() {
         List<MediaCodecInfo> result = new ArrayList<>();
         int count = MediaCodecList.getCodecCount();
         for (int i = 0; i < count; i++) {
             MediaCodecInfo codecInfo = MediaCodecList.getCodecInfoAt(i);
             if (codecInfo.isEncoder()) {
                 // 判断是否为编码器，否则直接进入下一次循环
+                Log.e(TAG, "codecInfo = " + codecInfo.getName());
+                String[] types = codecInfo.getSupportedTypes();
+                String typeInfo = "type : ";
+                for (int j = 0; j < types.length; j++) {
+                    typeInfo += types[j]+", ";
+                }
+                Log.e(TAG, typeInfo);
                 result.add(codecInfo);
             }
         }

@@ -19,7 +19,9 @@ import android.media.MediaCodecInfo;
  */
 public interface Icodec {
     String MIME_TYPE_AAC = "audio/mp4a-latm";//aac
+    String CODEC_NAME_AAC = "OMX.google.aac.encoder";
     String MIME_TYPE_H264 = "video/avc";// H.264 Advanced
+    String CODEC_NAME_H264 = "OMX.google.h264.encoder";
     int[] RECOGNIZED_COLOR_FORMAT = new int[]{//主流camera预览格式对应的colorformat
             MediaCodecInfo.CodecCapabilities.COLOR_FormatYUV420SemiPlanar, //对应Camera预览格式NV12
             MediaCodecInfo.CodecCapabilities.COLOR_FormatYUV420Planar,//对应Camera预览格式I420(YV21/YUV420P)

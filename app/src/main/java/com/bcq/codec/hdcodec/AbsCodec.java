@@ -116,9 +116,6 @@ public abstract class AbsCodec extends Thread implements Icodec {
                     codecListeren.onData(data, bufferInfo);
                 }
             }
-            if (null != codecListeren) {
-                codecListeren.onComplete();
-            }
             release();
         } catch (InterruptedException e) {
             e.printStackTrace();
