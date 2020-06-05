@@ -1,8 +1,8 @@
 # codec_h264
 展示h264的软编码和硬编码
 # module功能：
-# app：
-1.AudioRecord 录制pcm音频数据
+## app：
+####1.AudioRecord 录制pcm音频数据
 2.camera预览监听获取image，nv21格式的图像数据。
 3.使用mediacodec中的aac编码器对pcm编码
 4.使用yuv颜色转换库对nv21格式转换为yuv。
